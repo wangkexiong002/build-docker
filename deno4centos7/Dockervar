@@ -1,0 +1,3 @@
+DOCKER_REPO=wangkexiong/deno4centos7
+DOCKER_TAG=1.5.4
+DOCKER_TEST_CMD=deno -V
