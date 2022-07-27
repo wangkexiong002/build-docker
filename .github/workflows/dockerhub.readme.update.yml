@@ -42,7 +42,7 @@ jobs:
             fi
       - name: Update Docker Hub Description
         if: ${{ env.DOCKER_REPO != '' }}
-        uses: peter-evans/dockerhub-description@v2
+        uses: wangkexiong/dockerhub-description@workable
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
