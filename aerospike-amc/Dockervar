@@ -1,0 +1,5 @@
+DOCKER_REPO=wangkexiong/aerospike-amc
+DOCKER_TAG=5.0.0
+DOCKER_TEST_CMD=-h
+
+AMC_VERSION=5.0.0
