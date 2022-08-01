@@ -1,0 +1,6 @@
+DOCKER_REPO=wangkexiong/uwsgi4ubuntu
+DOCKER_TAG=2.0.20-py3.9.13
+DOCKER_TEST_CMD=python -c "import sysconfig;print(sysconfig.get_config_var('CONFIG_ARGS'))"
+
+UWSGI_VERSION=2.0.20
+PYTHON_VERSION=3.9.13
