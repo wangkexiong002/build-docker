@@ -1,0 +1,5 @@
+DOCKER_REPO=wangkexiong/mxe
+DOCKER_TAG=20220409
+DOCKER_TEST_CMD=x86_64-w64-mingw32.shared-g++ -v
+
+MXE_TAG=build-2022-04-09
